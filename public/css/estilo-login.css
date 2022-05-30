@@ -1,0 +1,58 @@
+
+/******************GENERALES*******************************/
+
+option{
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-size:12px;
+}
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+	margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 50%;
+	border-radius:5px!important;
+	
+}
+.mensaje-error{
+	color:red;
+}
+#ModalNuevoUsuario{
+	padding-left:10%;
+}
+#labelPreguntas{
+	 width: 300px;
+}
+#apellido,#nombre,#email,#fechanacimiento,#preguntaSeguridad,#respuesta{
+	padding-top:5px;
+	border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+#background_login {
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  	background-size: cover;
+}
+#contenedor{
+	background-color:white;
+	border-radius:5px!important;
+	width:100%;
+	padding:0%;
+	
+}
+#titulo-panel-heading{
+	color:#fff;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	
+	padding:3%;
+	background-color: #5EC4D0 !important;
+	margin:0%;
+	
+}
