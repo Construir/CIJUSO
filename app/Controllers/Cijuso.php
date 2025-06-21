@@ -6,6 +6,7 @@ use App\Models\Facturacion_modelo;
 use App\Models\Importaciones_modelo;
 use App\Models\Inscriptos_modelo;
 use App\Libraries\Pdf_factura as pdf_factura;
+//use App\Libraries\Enviar_mail as email;
 use App\Libraries\Enviar_mail as email;
 
 class Cijuso extends BaseController{
@@ -14,7 +15,7 @@ class Cijuso extends BaseController{
 
 	function index($mensaje = null){
 		
-		//INSTANCIA DE MODELOS
+		//INSTANCIA DE MODELOS, ESTE ES UN COMENTARIO DE PRUEBA PARA GIT
 		$session = \Config\Services::session();
 		$session->destroy();				
 				
